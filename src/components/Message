@@ -1,0 +1,11 @@
+function Message({ Message, onClick }) {
+return (
+
+    <div>
+
+    <p> Im still learning coding</p>
+    </div>
+);
+}
+
+export default Message;

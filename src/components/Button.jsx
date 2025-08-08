@@ -1,9 +1,9 @@
 function Button({ text, onClick }) {
   return (
     <div>
-    <Button onClick={onClick}>
+    <button onClick={onClick}>
       {text}
-    </Button>
+    </button>
     </div>
   );
 }

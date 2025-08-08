@@ -1,7 +1,11 @@
-function Button ({ text, onClick }) {
-return (
-    <button onClick={onClick}>{text}</button>
-);   
+function Button({ text, onClick }) {
+  return (
+    <div>
+    <Button onClick={onClick}>
+      {text}
+    </Button>
+    </div>
+  );
 }
 
 export default Button;
